@@ -16,3 +16,9 @@ function addElementToEndOfArray(chocolateBars, elementN) {
 function destructivelyAddElementToEndOfArray(chocolateBars, elementN) {
   chocolateBars.push(elementN);
 }
+
+var sentence = " is one of my favorite candy bars";
+
+function accessElementInArray(chocolateBars, elementN) {
+  console.log(chocolateBars[2] + sentence);
+}
