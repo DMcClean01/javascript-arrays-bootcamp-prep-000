@@ -23,15 +23,18 @@ function accessElementInArray(chocolateBars, elementN) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, elementN) {
-  console.log(chocolateBars.shift('snickers'));
+  chocolateBars.shift('snickers');
+  return chocolateBars;
 }
 
 function removeElementFromBeginningOfArray(chocolateBars, elementN) {
-  console.log(chocolateBars.slice(-2));
+  chocolateBars.slice(-2);
+  return chocolateBars;
 }
 
 function destructivelyRemoveElementFromEndOfArray(chocolateBars, elementN) {
-  console.log(chocolateBars.pop('skittles'));
+  chocolateBars.pop('skittles');
+  return chocolateBars;
 }
 
 function removeElementFromEndOfArray(chocolateBars, elementN) {
