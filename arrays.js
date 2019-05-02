@@ -2,7 +2,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'milkyway'];
 
 var addElementToBeginningOfArray = [...chocolateBars, 'klondike'];
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, 'Mars') {
+function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolateBars.unshift) {
   array.unshift('Mars');
 }
 
