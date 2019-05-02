@@ -1,10 +1,10 @@
-var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'milyway'];
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'milkyway'];
 
-var addElementToBeginningOfArray = ['klondike', ...chocolateBars];
+var addElementToBeginningOfArray = [...chocolateBars, 'klondike'];
 
 var destructivelyAddElementToBeginningOfArray = chocolateBars.unshift('mars');
 
-var addElementToEndOfArray = [...chocolateBars, 'new bar'];
+var addElementToEndOfArray = ['new bar', ...chocolateBars];
 
 var destructivelyAddElementToEndOfArray = chocolateBars.push('newer bar');
 
