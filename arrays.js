@@ -35,3 +35,6 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars, elementN) {
   console.log(chocolateBars.pop('skittles'));
 }
 
+function removeElementFromEndOfArray(chocolateBars, elementN) {
+  console.log(chocolateBars.slice(0, chocolateBars.length - 1));
+}
