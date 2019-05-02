@@ -30,3 +30,8 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, elementN)
 function removeElementFromBeginningOfArray(chocolateBars, elementN) {
   console.log(chocolateBars.slice(-2));
 }
+
+function destructivelyRemoveElementFromEndOfArray(chocolateBars, elementN) {
+  console.log(chocolateBars.pop('skittles'));
+}
+
