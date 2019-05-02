@@ -18,11 +18,8 @@ function destructivelyAddElementToEndOfArray(chocolateBars, elementN) {
   return chocolateBars;
 }
 
-var sentence = " is one of my favorite candy bars";
-
 function accessElementInArray(chocolateBars, elementN) {
-  chocolateBars[2] + sentence;
-  return chocolateBars;
+  return chocolateBars[2];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, elementN) {
