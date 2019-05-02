@@ -21,7 +21,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, elementN) {
 var sentence = " is one of my favorite candy bars";
 
 function accessElementInArray(chocolateBars, elementN) {
-  console.log(chocolateBars[2] + sentence);
+  console.log(chocolateBars[3] + sentence);
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, elementN) {
