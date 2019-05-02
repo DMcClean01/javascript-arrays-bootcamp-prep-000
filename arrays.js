@@ -22,3 +22,11 @@ var sentence = " is one of my favorite candy bars";
 function accessElementInArray(chocolateBars, elementN) {
   console.log(chocolateBars[2] + sentence);
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, elementN) {
+  console.log(chocolateBars.shift('snickers'));
+}
+
+function removeElementFromBeginningOfArray(chocolateBars, elementN) {
+  console.log(chocolateBars.slice(-2));
+}
